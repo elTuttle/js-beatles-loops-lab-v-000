@@ -18,4 +18,3 @@ function johnLennonFacts(factsArray){
   }
   return newArray
 }
-
