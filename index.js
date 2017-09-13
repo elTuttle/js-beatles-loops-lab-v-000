@@ -18,3 +18,11 @@ function johnLennonFacts(factsArray){
   }
   return newArray
 }
+
+function iLoveTheBeatles(numberParameter){
+  var newArray = []
+  do{
+    newArray.push("I love the Beatles!")
+    numberParameter++
+  }while(numberParameter < 15)
+}
