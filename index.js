@@ -1,11 +1,5 @@
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-const facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
 
 function theBeatlesPlay(musicians,instruments){
   var newArray = []
@@ -15,15 +9,13 @@ function theBeatlesPlay(musicians,instruments){
   return newArray
 }
 
-function johnLennonFacts(johnLennonFacts){
+function johnLennonFacts(factsArray){
   var i = 0;
-  var johnLennonFacts = []
-  while(i < johnLennonFacts.length){
-    johnLennonFacts.push(factsArray[i] + "!!!")
+  var newArray = []
+  while(i < factsArray.length){
+    newArray.push(factsArray[i] + "!!!")
     i++;
-    console.log(johnLennonFacts[i])
   }
-  return johnLennonFacts
+  return newArray
 }
 
-johnLennonFacts(facts)
