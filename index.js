@@ -13,8 +13,8 @@ function johnLennonFacts(factsArray){
   var i = 0;
   var johnLennonFacts = []
   while(i < factsArray){
-    newArray.push(factsArray[i] + "!!!")
+    johnLennonFacts.push(factsArray[i] + "!!!")
     i++;
   }
-  return newArray
+  return johnLennonFacts
 }
