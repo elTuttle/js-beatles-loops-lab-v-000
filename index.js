@@ -25,4 +25,6 @@ function iLoveTheBeatles(numberParameter){
     newArray.push("I love the Beatles!")
     numberParameter++
   }while(numberParameter < 15)
+
+  return newArray
 }
